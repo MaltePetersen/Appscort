@@ -1,6 +1,8 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition, group } from '@angular/animations';
-import * as $ from 'jquery';
+//import * as $ from 'jquery';
+
+declare var $: any;
 
 @Component({
   selector: 'app-team',
@@ -84,6 +86,7 @@ import * as $ from 'jquery';
   ],
 })
 export class TeamComponent implements OnInit {
+  
 
   start_teamIconsR1 = false;
   start_teamIconsR2 = false;
@@ -112,9 +115,27 @@ export class TeamComponent implements OnInit {
   }
 
   constructor() { }
-
+  
   ngOnInit() {
-
-  }
-
+    $(document).ready(function () {
+      $('#team-slider').owlCarousel({
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          576: {
+            items: 2
+          },
+          768: {
+            items: 3
+          }
+        }
+      });
+    });
+  
+}
 }

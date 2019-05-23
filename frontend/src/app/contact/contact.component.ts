@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
 @Component({
@@ -12,28 +12,7 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit() {
-    /*
 
-       $(document).ready(function(){
-         $('#team-slider').owlCarousel({
-           autoplay:true,
-           smartSpeed:700,
-           loop:true,
-           autoplayHoverPause:true,
-           responsive:{
-               0:{
-                   items:1
-               },
-               576:{
-                   items:2
-               },
-               768:{
-                   items:3
-               }
-           }
-       });
-       });
-     */
+
   }
-
 }
