@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "template-login.component.sass"
+    ],
+    "names": [],
+    "file": "template-login.component.css"
+}

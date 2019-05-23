@@ -1,89 +1,61 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule, NO_ERRORS_SCHEMA} from '@angular/core';
-import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
-import {HttpInterceptor} from '@angular/common/http';
-import {AppComponent} from './app.component';
-import {FormsModule} from '@angular/forms';
-import {AppRoutes} from './app. routes';
-import {CalendarComponent} from './components/calendar/calendar.component';
-import {CalendarModule, DateAdapter} from 'angular-calendar';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {adapterFactory} from 'angular-calendar/date-adapters/date-fns';
-import {CompanyService} from './services/company.service';
-import {TimeEntryComponent} from './components/time-entry/time-entry.component';
-import {TimeEntryService} from './services/time-entry.service';
-import {TimeListComponent} from './components/time-list/time-list.component';
-import {CompaniesListComponent} from './components/companies-list/companies-list.component';
-import {
-  MatOptionModule,
-  MatSelectModule,
-  MatFormFieldModule,
-  MatInputModule,
-  MatCheckboxModule,
-  MatDatepickerModule,
-  MatNativeDateModule,
-  MatTableModule,
-  MatDividerModule,
-  MatSidenavModule,  MatGridListModule
-} from '@angular/material';
-import {LoginComponent} from './components/login/login.component';
-import {MatButtonModule} from '@angular/material';
-import {TokenStorageService} from './services/token-storage.service';
-import {AuthInterceptor} from './auth/AuthInterceptor';
-import {LoginCommunicationService} from './services/login-communication.service';
-import {AuthGuard} from './auth/AuthGuard';
-import {LogoutComponent} from './components/logout/logout.component';
-import {UserStorageService} from './services/user-storage.service';
-import {ControllingComponent} from './components/controlling/controlling.component';
-import {TimeListChildDeleteComponent} from './components/time-list/time-list-child-delete/time-list-child-delete.component';
-import {TimeEntryChangeComponent} from './components/time-list/time-entry-change/time-entry-change.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {APP_INITIALIZER, NgModule} from '@angular/core';
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { TemplateLoginComponent } from './_template/template-login/template-login.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TemplateNavbarComponent } from './_template/template-navbar/template-navbar.component';
+import { FeaturesComponent } from './features/features.component';
+import { PortfolioComponent, DialogDataExampleDialog } from './portfolio/portfolio.component';
+import { TeamComponent } from './team/team.component';
+import { ContactComponent } from './contact/contact.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { PricingComponent } from './pricing/pricing.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { VideoComponent } from './video/video.component';
+import { AppRoutingModule } from './app-routing.module';
+import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import {KeycloakAngularModule, KeycloakService} from 'keycloak-angular';
+import { initializer } from './utils/app-init';
+
+export class YourAppModule {
+}
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalendarComponent,
-    TimeEntryComponent,
-    TimeListComponent,
-    CompaniesListComponent,
-    LoginComponent,
-    LogoutComponent,
-    ControllingComponent,
-    TimeListChildDeleteComponent,
-    TimeEntryChangeComponent,
+    HomeComponent,
+    TemplateLoginComponent,
+    TemplateNavbarComponent,
+    FeaturesComponent,
+    PortfolioComponent,
+    PricingComponent,
+    TeamComponent,
+    VideoComponent,
+    ContactComponent,
+    PricingComponent,
+    DialogDataExampleDialog,
+    WelcomePageComponent
   ],
   imports: [
+    MDBBootstrapModule.forRoot(),
     BrowserModule,
     BrowserAnimationsModule,
-    CalendarModule.forRoot({
-      provide: DateAdapter,
-      useFactory: adapterFactory
-    }),
-    FormsModule,
-    HttpClientModule,
-    AppRoutes,
-    MatFormFieldModule,
-    MatSelectModule,
-    MatOptionModule,
-    MatInputModule,
-    BrowserAnimationsModule,
-    BrowserModule,
-    MatButtonModule,
-    MatCheckboxModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
-    MatTableModule,
-    MatDividerModule,
-    MatSidenavModule,
-    MatGridListModule
+    NgbModule,
+    MatDialogModule,
+    AppRoutingModule,
+    KeycloakAngularModule
   ],
+  entryComponents: [PricingComponent, DialogDataExampleDialog],
   providers: [
-    AuthGuard,
-    CompanyService,
-    UserStorageService,
-    TimeEntryService,
-    TokenStorageService, {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true},
-    LoginCommunicationService],
+    {
+      provide: APP_INITIALIZER,
+      useFactory: initializer,
+      multi: true,
+      deps: [KeycloakService]
+    }
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule { }

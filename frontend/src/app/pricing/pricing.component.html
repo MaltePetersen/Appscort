@@ -1,0 +1,73 @@
+<div class="jumbotron background" style="min-height: 400px">
+  <div class="eng">
+
+    <div class="os col-12" *ngIf="start_pricing" @enterLeave>
+      <h3 class="überschrift" style="color:black">
+        Preise
+      </h3>
+      <div class="underline"></div>
+    </div>
+
+
+    <div class="row justify-content-md-center">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="os" style="width: 90%; padding-left: 10%" *ngIf="start_pricingIconsR1" @leftRight>
+          <div class="preis-segment text-center">
+            <h3>FREE</h3>
+            <p>Für alle die, die Appscort erst einmal kennenlernen wollen. Mit diesem Angebot kannst du dich in ruhe
+              umsehen.</p>
+            <div>
+              <h4><span class="item">Angebote Lesen: </span><i class="fas fa-check"></i></h4>
+              <h4><span class="item">Angebote Buchen: </span><i class="fas fa-times"></i></h4>
+              <h4><span class="item">Angebote Erstellen: </span><i class="fas fa-times"></i></h4>
+            </div>
+            <h1>Kostenlos</h1>
+            <a class="btn btn-klein btn-secondary" href="#contact">Registrieren</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="os" style="width: 90%; padding-left: 10%" *ngIf="start_pricingIconsR1" @enterLeave>
+          <div class="preis-segment text-center">
+            <h3>BASIS</h3>
+            <p>Du hast Aufträge zu vergeben, willst aber selber keine Angebote machen? Dann ist dieses Angebot genauh
+              richtig für dich.</p>
+            <div>
+              <h4><span class="item">Angebote Lesen: </span><i class="fas fa-check"></i></h4>
+              <h4><span class="item">Angebote Buchen: </span><i class="fas fa-check"></i></h4>
+              <h4><span class="item">Angebote Erstellen: </span><i class="fas fa-times"></i></h4>
+            </div>
+            <h1>9,99 € <span style="font-size: 1rem">(im Monat)</span></h1>
+            <a class="btn btn-klein btn-secondary" href="#contact">Kaufen</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="os" style="width: 90%; padding-left: 10%" *ngIf="start_pricingIconsR1" @rightLeft>
+          <div class="preis-segment text-center">
+            <div class="bandarole">Bestes Angebot</div>
+            <h3>PREMIUM</h3>
+            <p>Du möchtest deine Arbeitskraft und deine Fähigkeiten anbieten um anderen zu helfen? Dann wähle dieses
+              Angebot</p>
+            <div>
+              <h4><span class="item">Angebote Lesen: </span><i class="fas fa-check"></i></h4>
+              <h4><span class="item">Angebote Buchen: </span><i class="fas fa-check"></i></h4>
+              <h4><span class="item">Angebote Erstellen: </span><i class="fas fa-check"></i></h4>
+            </div>
+            <h1>29,99 € <span style="font-size: 1rem">(im Monat)</span></h1>
+            <a class="btn btn-klein btn-blau" href="#contact">Kaufen</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+  <!--Ende von eng-->
+</div>
+<!--Ende vom Jumbotron-->

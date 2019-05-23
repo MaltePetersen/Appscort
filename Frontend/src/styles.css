@@ -1,2 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
-@import "../node_modules/angular-calendar/css/angular-calendar.css";
+/* You can add global styles to this file, and also import other style files * */
+/* roboto-regular - latin */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./assets/fonts/roboto-v19-latin-regular.woff2") format("woff2");
+  src-font-weight: regular;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./assets/fonts/roboto-v19-latin-regular.woff") format("woff");
+  src-font-weight: regular;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./assets/fonts/roboto-v19-latin-regular.ttf") format("truetype");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("./assets/fonts/Raleway-Bold.ttf") format("ttf");
+  src-font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("./assets/fonts/Raleway-Medium.ttf") format("ttf");
+  src-font-weight: medium;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("./assets/fonts/Raleway-Regular.ttf") format("ttf");
+  src-font-weight: regular;
+}
+
+::-moz-selection {
+  background-color: #68a5ff;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #68a5ff;
+  color: #ffffff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing-box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: px;
+  background-color: #585858;
+}
+
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+
+/*--- Extra Bootstrap Colum Padding ---*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

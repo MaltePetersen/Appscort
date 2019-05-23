@@ -1,0 +1,314 @@
+@charset "UTF-8";
+/*--- $prime: #68a5ff  ---*/
+h3.überschrift {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+p.font {
+  font-size: 1.1rem;
+}
+
+p.peter {
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 1rem;
+  text-shadow: .1rem .1rem .9rem black;
+  font-weight: 400;
+}
+
+.btn-klein {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.btn-secondary {
+  border-color: #94939e;
+  background-color: #94939e;
+  color: #ffffff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #606060;
+  background-color: #606060;
+  color: #ffffff;
+}
+
+.btn-blau {
+  border-color: #68a5ff;
+  background-color: #68a5ff;
+  color: #ffffff;
+}
+
+.btn-blau:hover,
+.btn-blau:focus {
+  border-color: #306AFF;
+  background-color: #306AFF;
+  color: #ffffff;
+}
+
+.os {
+  margin: 0 !important;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.background {
+  background-color: #e7d6c4;
+  z-index: -1000;
+}
+
+.underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #68a5ff;
+  margin: 0 auto 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.spacing {
+  letter-spacing: .1rem;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-wrap {
+  -webkit-clip-path: inset(0 0);
+          clip-path: inset(0 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+
+/*########################################################################################*/
+.home-inner {
+  background-image: url("../../assets/pictures/Hintergründe/handwerker_terasse.jpg");
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 2;
+}
+
+.caption h1 {
+  color: white;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .1rem;
+}
+
+.caption h3 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: .2rem;
+}
+
+.btn-lg {
+  color: #68a5ff;
+  border-color: #68a5ff;
+  border-width: medium;
+  border-radius: 0;
+  padding: .8rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block !important;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+  /*############################Down Arrow#############################*/
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 60px;
+  height: 50px;
+}
+
+a.down-arrow {
+  display: block;
+  color: #fff;
+}
+
+.down-arrow {
+  opacity: .3;
+  font-size: 2rem;
+}
+
+.down-arrow:hover {
+  opacity: .7;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/*# sourceMappingURL=home.component.css.map */

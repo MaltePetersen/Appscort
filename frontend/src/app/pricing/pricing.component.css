@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/*--- $prime: #68a5ff  ---*/
+h3.überschrift {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+p.font {
+  font-size: 1.1rem;
+}
+
+p.peter {
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 1rem;
+  text-shadow: .1rem .1rem .9rem black;
+  font-weight: 400;
+}
+
+.btn-klein {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.btn-secondary {
+  border-color: #94939e;
+  background-color: #94939e;
+  color: #ffffff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #606060;
+  background-color: #606060;
+  color: #ffffff;
+}
+
+.btn-blau {
+  border-color: #68a5ff;
+  background-color: #68a5ff;
+  color: #ffffff;
+}
+
+.btn-blau:hover,
+.btn-blau:focus {
+  border-color: #306AFF;
+  background-color: #306AFF;
+  color: #ffffff;
+}
+
+.os {
+  margin: 0 !important;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.background {
+  background-color: #e7d6c4;
+  z-index: -1000;
+}
+
+.underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #68a5ff;
+  margin: 0 auto 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.spacing {
+  letter-spacing: .1rem;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-wrap {
+  -webkit-clip-path: inset(0 0);
+          clip-path: inset(0 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+
+.preis-segment {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-top: 0.2rem solid #68a5ff;
+  -webkit-box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+  -webkit-transition: -webkit-transform .7s ease;
+  transition: -webkit-transform .7s ease;
+  transition: transform .7s ease;
+  transition: transform .7s ease, -webkit-transform .7s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.preis-segment:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.preis-segment h3 {
+  padding: 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.preis-segment p {
+  opacity: .8;
+  margin-top: 1.1rem;
+  font-size: 1rem;
+}
+
+.preis-segment h1 {
+  font-size: 1.8rem;
+}
+
+.preis-segment h4 {
+  padding: .4rem;
+  font-size: 1.1rem;
+}
+
+.preis-segment item {
+  font-weight: 700;
+}
+
+.preis-segment h1 {
+  padding: .8rem 0;
+}
+
+.bandarole {
+  background-color: #68a5ff;
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  font-size: .8rem;
+  font-weight: 700;
+  padding-top: .4rem;
+  position: absolute;
+  right: -2.8rem;
+  top: 1.6rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+/*# sourceMappingURL=pricing.component.css.map */

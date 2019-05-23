@@ -1,0 +1,115 @@
+<div class="fixed-background" style="min-height: 400px">
+  <div class="light2" style="min-height: 400px">
+
+    <div class="row padding">
+      <div class="col-12 os-portfolio" *ngIf="start_portfolio" @enterLeave>
+        <h3 class="überschrift" style="color:black; ">Portfolio</h3>
+        <div class="underline"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row no-padding">
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR1" @leftRight>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio1')">
+                <img src="../../assets/pictures/Portfolio/Portfolio1sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR2" @leftRight>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio2')">
+                <img src="../../assets/pictures/Portfolio/Portfolio2sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR2" @rightLeft>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio3')">
+                <img src="../../assets/pictures/Portfolio/Portfolio3sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR1" @rightLeft>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio4')">
+                <img src="../../assets/pictures/Portfolio/Portfolio4sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio">
+            <div class="portfolio-item" *ngIf="start_portfolioIconsR3" @leftRight>
+              <a (click)="openDialog('portfolio5')">
+                <img src="../../assets/pictures/Portfolio/Portfolio5sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR4" @leftRight>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio6')">
+                <img src="../../assets/pictures/Portfolio/Portfolio6sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR4" @rightLeft>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio7')">
+                <img src="../../assets/pictures/Portfolio/Portfolio7sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <div class="os-portfolio" *ngIf="start_portfolioIconsR3" @rightLeft>
+            <div class="portfolio-item">
+              <a (click)="openDialog('portfolio8')">
+                <img src="../../assets/pictures/Portfolio/Portfolio8sepia.png" class="example-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="os-portfolio" *ngIf="start_portfolioIconsR5" @enterLeave>
+      <div class="eng text-center">
+        <div class="col-12">
+          <p class="font_p">
+            Kontaktiere uns, wenn du mehr von unserem umfangreichen Portfolio kennenlernen möchtest. Wir vertreten alle
+            Branchen!<br>
+            <a class="btn btn-blau btn-klein" href="#contact">Nimm Kontakt auf</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="fixed-wrap">
+    <div id="fixed"></div>
+  </div>
+</div>

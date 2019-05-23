@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/*--- $prime: #68a5ff  ---*/
+h3.überschrift {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+p.font {
+  font-size: 1.1rem;
+}
+
+p.peter {
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 1rem;
+  text-shadow: .1rem .1rem .9rem black;
+  font-weight: 400;
+}
+
+.btn-klein {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.btn-secondary {
+  border-color: #94939e;
+  background-color: #94939e;
+  color: #ffffff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #606060;
+  background-color: #606060;
+  color: #ffffff;
+}
+
+.btn-blau {
+  border-color: #68a5ff;
+  background-color: #68a5ff;
+  color: #ffffff;
+}
+
+.btn-blau:hover,
+.btn-blau:focus {
+  border-color: #306AFF;
+  background-color: #306AFF;
+  color: #ffffff;
+}
+
+.os {
+  margin: 0 !important;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.background {
+  background-color: #e7d6c4;
+  z-index: -1000;
+}
+
+.underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #68a5ff;
+  margin: 0 auto 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.spacing {
+  letter-spacing: .1rem;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-wrap {
+  -webkit-clip-path: inset(0 0);
+          clip-path: inset(0 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+
+#fixed {
+  background-image: url("../../assets/pictures/Portfolio/cellphone-desk-iphone-7100.jpg");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  -webkit-transform-transform: translateZ(0);
+  will-change: transform;
+}
+
+.light2 {
+  background-color: rgba(231, 214, 196, 0.45);
+  padding-top: 0;
+  margin: 0 0 0;
+  z-index: 999 !important;
+}
+
+#portfolio {
+  min-height: 400px;
+}
+
+.row.padding {
+  padding: 2rem 0 1rem;
+}
+
+img.example-image {
+  max-width: 100%;
+}
+
+.row.no-padding [class*=col-] {
+  padding: 0;
+}
+
+.portfolio-item img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.portfolio-item img {
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
+}
+
+.portfolio-item {
+  overflow: hidden;
+}
+
+.eng {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1remS;
+}
+
+.os-portfolio {
+  margin: 0 !important;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #68a5ff;
+  margin: 0 auto 2rem;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.ekko-lightbox-nav-overlay a {
+  color: goldenrod;
+}
+
+.gallery-title {
+  font-weight: 500;
+  border-bottom: 1px dotted orange;
+  margin-top: 1em;
+}
+
+/*################################MODAL#####################################*/
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#modal-container {
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  width: 375px;
+  background: white;
+  margin-left: -187.5px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 2px 1px black;
+          box-shadow: 0px 0px 2px 1px black;
+  z-index: 100;
+}
+
+#overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.sample-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.sample-text {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sample-close {
+  text-align: center;
+}
+
+.sample-close button {
+  width: 200px;
+  height: 200px;
+  color: tomato;
+}
+/*# sourceMappingURL=portfolio.component.css.map */

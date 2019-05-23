@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/*--- $prime: #68a5ff  ---*/
+h3.überschrift {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+p.font {
+  font-size: 1.1rem;
+}
+
+p.peter {
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 1rem;
+  text-shadow: .1rem .1rem .9rem black;
+  font-weight: 400;
+}
+
+.btn-klein {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.btn-secondary {
+  border-color: #94939e;
+  background-color: #94939e;
+  color: #ffffff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #606060;
+  background-color: #606060;
+  color: #ffffff;
+}
+
+.btn-blau {
+  border-color: #68a5ff;
+  background-color: #68a5ff;
+  color: #ffffff;
+}
+
+.btn-blau:hover,
+.btn-blau:focus {
+  border-color: #306AFF;
+  background-color: #306AFF;
+  color: #ffffff;
+}
+
+.os {
+  margin: 0 !important;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.background {
+  background-color: #e7d6c4;
+  z-index: -1000;
+}
+
+.underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #68a5ff;
+  margin: 0 auto 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.spacing {
+  letter-spacing: .1rem;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-wrap {
+  -webkit-clip-path: inset(0 0);
+          clip-path: inset(0 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+
+#fixed {
+  background-image: url("../../assets/pictures/Team/architectural-design-architecture-ceiling-380768.jpg");
+  position: fixed;
+  display: block;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  -webkit-transform-transform: translateZ(0);
+  will-change: transform;
+}
+
+.light {
+  background-color: rgba(231, 214, 196, 0.65);
+  padding: 3rem 2rem 2rem;
+  margin: -32px 0 0;
+  z-index: 999 !important;
+}
+
+.card {
+  border-radius: 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+  margin: 0 1rem;
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
+  height: 600px;
+}
+
+.card-image-top {
+  border-radius: 0;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.card h4 {
+  font-weight: 700;
+}
+
+.card h5 {
+  color: #68a5ff;
+}
+
+.card p {
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.fab {
+  color: #68a5ff !important;
+  font-size: 1.3rem;
+  width: 2rem;
+}
+
+.fab:hover {
+  color: #94939e !important;
+}
+
+.owl-dot:hover {
+  background: #68a5ff !important;
+}
+
+.owl-dots {
+  background: #68a5ff !important;
+}
+
+.owl-dot .active span {
+  background: #68a5ff !important;
+}
+/*# sourceMappingURL=team.component.css.map */

@@ -1,0 +1,177 @@
+<div class="os-animation animated background">
+  <div class="eng text-center">
+    <div class="col-12">
+      <div *ngIf="start" @enterLeave>
+        <h1>Finde mühelos die richtige Person für dein Anliegen</h1>
+      </div>
+      <div *ngIf="start" @enterLeave>
+        <p class="lead">Appscort hilft dir dabei die Person für deinen Auftrag zu finden. Egal ob Handwerker oder
+          Dienstleister, wir finden wen du suchst.</p>
+      </div>
+      <div *ngIf="start" @enterLeave>
+        <a class="btn btn-secondary btn-klein" href="#contact">Fragen?</a>
+        <a class="btn btn-blau btn-klein" href="#portfolio">Unser Angebot</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron background_dark">
+  <div class="eng">
+
+    <div class="col-12 os-features">
+      <div *ngIf="start_feature" @enterLeave>
+        <h3 class="überschrift">Features</h3>
+        <div class="underline"></div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-6 col-md-4">
+        <div class="os-animation animated" *ngIf="start_featureIconsR1" @leftRight>
+          <div class="feature">
+            <div class="kreis">
+              <div class="innen" style="margin-top: -1.5px; margin-left:21px">
+                <div class="fa-3x">
+                  <i class="fas fa-dollar-sign fa-inverse"></i>
+                </div>
+              </div>
+            </div>
+            <h3 class="features">Transparente Kosten</h3>
+            <p class="font">Sieh zu jeder Zeit, was dich dein Auftrag kosten wird. Keine Versteckten Kosten, 100%
+              Transparenz
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="os-animation animated" *ngIf="start_featureIconsR1" @enterLeave>
+          <div class="feature">
+            <div class="kreis">
+              <div class="innen" style="margin-top:-8.5px; margin-left:9px">
+                <div class="fa-3x">
+                  <i class="fas fa-tachometer-alt fa-inverse"></i>
+                </div>
+              </div>
+            </div>
+            <h3 class="features">Schnelle Vermittlung</h3>
+            <p class="font">Buchungen laufen schnell und unkompliziert, auch kurzfristige Termine sind kein
+              Problem
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="os-animation animated" *ngIf="start_featureIconsR1" @rightLeft>
+          <div class="feature">
+            <div class="kreis">
+              <div class="innen" style="margin-top:-1.5px; margin-left:18px">
+                <div class="fa-3x">
+                  <i class="fas fa-lightbulb fa-inverse"></i>
+                </div>
+              </div>
+            </div>
+            <h3 class="features">Tipps</h3>
+            <p class="font">Hast du probleme, dann hilft dir unser umfassendes Hilfsprogramm bei der Erfüllung
+              deiner
+              Bedürfnisse</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="os-animation animated" *ngIf="start_featureIconsR2" @leftRight>
+          <div class="feature">
+            <div class="kreis">
+              <div class="innen" style="margin-top:-1px; margin-left:11px">
+                <div class="fa-3x">
+                  <i class="fas fa-check fa-inverse"></i>
+                </div>
+              </div>
+            </div>
+            <h3 class="features">Qualität</h3>
+            <p class="font">Unser Personal unterliegt strengen Qualitätskontrollen. Unser Bewertungsprogramm sorgt
+              dafür, dass
+              nur die Besten ihres Fachs bei uns gelistet sind.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="os-animation animated" *ngIf="start_featureIconsR2" @enterLeave>
+          <div class="feature">
+            <div class="kreis">
+              <div class="innen" style="margin-top:-1.2px; margin-left:6px">
+                <div class="fa-3x">
+                  <i class="fas fa-hands-helping fa-inverse"></i>
+                </div>
+              </div>
+            </div>
+            <h3 class="features">Vertragsbindung</h3>
+            <p class="font">Bei einer Buchung wird automatisiert ein Vertrag erstellt, der beide Vertragspartner
+              an ihre
+              Übereinkunft bindet.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="os-animation animated" *ngIf="start_featureIconsR2" @rightLeft>
+          <div class="feature">
+            <div class="kreis">
+              <div class="innen" style="margin-top:-2px; margin-left:27px">
+                <div class="fa-3x">
+                  <i class="fas fa-exclamation fa-inverse"></i>
+                </div>
+              </div>
+            </div>
+            <h3 class="features">Erfahrung</h3>
+            <p class="font">Wir vermitteln nur Personal das über Ausreichende Qualifikationen im jeweiligen Beruf
+              verfügt. Dies
+              wird durch unser Team im Vorfeld überprüft.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- HINTERGRUND -->
+
+<div class="fixed-background">
+  <div class="container">
+    <div class="col-8 os-features" *ngIf="start_featureIconsR3" @enterLeave>
+      <h3 class="überschrift" style="text-shadow: .1rem .1rem .10rem black">Appscort - Wo glückliche Handwerker
+        vermittelt werden</h3>
+      <div class="underline"></div>
+    </div>
+    <div class="col-4">
+      <div class="os-features" *ngIf="start_featureIconsR4" @leftRight>
+        <div class="well">
+          <h3 class="peter"> Peter, 32 <br>
+            (Handwerker)</h3>
+          <div class="underline" style="margin-bottom: -1px;"></div>
+          <p class="peter">Seit ich bei
+            Appscort bin laufen die Geschäfte richtig
+            gut! Vorher war ich
+            ein einfacher Angestellter und habe wenig verdient, nun mache ich meine Preise selbst. Ich bin ein
+            glücklicher
+            Mann, weil ich mir meine Aufträge aussuchen kann. Ich möchte nie wieder ohne Appscort arbeiten müssen!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-wrap">
+    <div id="fixed"></div>
+
+  </div>
+</div>
