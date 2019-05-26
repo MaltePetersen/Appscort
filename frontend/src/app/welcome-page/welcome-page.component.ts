@@ -15,5 +15,4 @@ export class WelcomePageComponent implements OnInit {
   async ngOnInit() {
     this.auth = await this.keycloakservice.isLoggedIn();
   }
-
 }
