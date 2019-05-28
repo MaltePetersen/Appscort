@@ -10,7 +10,6 @@ export function initializer(keycloak: KeycloakService): () => Promise<any> {
           config: environment.keycloak,
           initOptions: {
           },
-          enableBearerInterceptor: true,
           bearerExcludedUrls: []
         });
         resolve();
