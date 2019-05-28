@@ -5,7 +5,8 @@
   </div>
 </div>
 <div class="caption enter-block text-center" @enterLeave>
-  <h1 styles="color:black">Willkommen bei Appscort</h1>
+  <h1 *ngIf="!auth" styles="color:black">Willkommen bei Appscort</h1>
+  <h1 *ngIf="auth" styles="color:black">Willkommen {{contracts[0].name}}</h1>
 
   <h3>Der unkompliziertesten Personalvermittlung im Netz</h3>
 

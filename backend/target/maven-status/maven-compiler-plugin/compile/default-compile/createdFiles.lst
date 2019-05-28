@@ -1,0 +1,11 @@
+de\slackspace\keycloaktutorial\contract\web\ContractResource.class
+de\slackspace\keycloaktutorial\security\web\resolver\UserDetailsArgumentResolver.class
+de\slackspace\keycloaktutorial\security\web\config\WebConfig.class
+de\slackspace\keycloaktutorial\contract\domain\Contract.class
+de\slackspace\keycloaktutorial\buisnessDomain\Contractor.class
+de\slackspace\keycloaktutorial\buisnessDomain\Customer.class
+de\slackspace\keycloaktutorial\Repository\CustomerRepository.class
+de\slackspace\keycloaktutorial\KeyCloakTutorial.class
+de\slackspace\keycloaktutorial\Repository\ContractorRepository.class
+de\slackspace\keycloaktutorial\contract\web\CustomerController.class
+de\slackspace\keycloaktutorial\security\domain\UserDetails.class
