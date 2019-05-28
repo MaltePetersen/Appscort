@@ -20,6 +20,8 @@ import {KeycloakAngularModule, KeycloakService} from 'keycloak-angular';
 import {initializer} from './utils/app-init';
 import {ContractServiceService} from './_service/contract-service.service';
 import {HttpClientModule} from '@angular/common/http';
+import { DienstpostComponent } from './dienstpost/dienstpost.component';
+import {DiensteService} from './_service/dienste.service';
 
 export class YourAppModule {
 }
@@ -38,7 +40,8 @@ export class YourAppModule {
         ContactComponent,
         PricingComponent,
         DialogDataExampleDialog,
-        WelcomePageComponent
+        WelcomePageComponent,
+        DienstpostComponent
     ],
     imports: [
         MDBBootstrapModule.forRoot(),
@@ -53,6 +56,7 @@ export class YourAppModule {
     entryComponents: [PricingComponent, DialogDataExampleDialog],
     providers: [
         ContractServiceService,
+        DiensteService,
         {
             provide: APP_INITIALIZER,
             useFactory: initializer,
