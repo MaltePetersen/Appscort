@@ -22,8 +22,8 @@ export class DiensteService {
         let headers = new HttpHeaders();
         headers.append('Content-type', 'application/json');
         headers.append('Access-Control-Allow-Origin', '*');
-        return this.http.put(
-            'http://localhost:8080/api/dienst',
+        return this.http.post(
+            'http://localhost:8000/api/dienst',
             model, {
                 headers, observe: 'response'
 
