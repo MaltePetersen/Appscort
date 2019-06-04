@@ -18,7 +18,8 @@ export class DienstpostComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.dienst = new Dienst('Martha')
+        this.dienst = new Dienst();
+        this.dienst.inhalt = 'Martha';
         this.dienstPostService.post(this.dienst).subscribe((res: HttpResponse<any>) => (console.log('succesful')),
 
             (res: HttpErrorResponse) => console.log('error'));

@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {Contract} from '../contract.model';
 import {HttpClient, HttpErrorResponse, HttpHeaders, HttpResponse} from '@angular/common/http';
 import {KeycloakService} from 'keycloak-angular';
+import {Dienst} from '../domain/dienst';
 
 
 @Injectable({
@@ -14,7 +15,7 @@ export class DiensteService {
     }
 
     get() {
-        return this.http.get('http://localhost:8000/api/dienst/all');
+        return this.http.get<Dienst[]>('http://localhost:8000/api/dienst/all');
     }
 
 

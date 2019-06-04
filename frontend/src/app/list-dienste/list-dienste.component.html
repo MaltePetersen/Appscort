@@ -1,0 +1,14 @@
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+  <tr>
+    <th class="mdl-data-table__cell--non-numeric">Id</th>
+    <th>Inhalt</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let dienst of dienstList">
+    <td class="mdl-data-table__cell--non-numeric">{{dienst.id}}</td>
+    <td>{{dienst.inhalt}}</td>
+  </tr>
+  </tbody>
+</table>

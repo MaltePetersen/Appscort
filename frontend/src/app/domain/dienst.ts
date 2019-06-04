@@ -1,7 +1,9 @@
 export class Dienst {
-    name: string;
+    id?: number;
+    inhalt: string;
 
-    constructor(name: string) {
-        this.name = name;
+
+
+    constructor() {
     }
 }

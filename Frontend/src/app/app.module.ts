@@ -22,6 +22,7 @@ import {ContractServiceService} from './_service/contract-service.service';
 import {HttpClientModule} from '@angular/common/http';
 import { DienstpostComponent } from './dienstpost/dienstpost.component';
 import {DiensteService} from './_service/dienste.service';
+import { ListDiensteComponent } from './list-dienste/list-dienste.component';
 
 export class YourAppModule {
 }
@@ -41,7 +42,8 @@ export class YourAppModule {
         PricingComponent,
         DialogDataExampleDialog,
         WelcomePageComponent,
-        DienstpostComponent
+        DienstpostComponent,
+        ListDiensteComponent
     ],
     imports: [
         MDBBootstrapModule.forRoot(),
