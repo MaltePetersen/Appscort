@@ -1,14 +1,8 @@
-<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-  <thead>
-  <tr>
-    <th class="mdl-data-table__cell--non-numeric">Id</th>
-    <th>Inhalt</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let dienst of dienstList">
-    <td class="mdl-data-table__cell--non-numeric">{{dienst.id}}</td>
-    <td>{{dienst.inhalt}}</td>
-  </tr>
-  </tbody>
-</table>
+<div class="mt-8"></div>
+<div class="jumbotron " *ngFor="let dienst of dienstList">
+    <h1 class="display-4">{{dienst.heading}}</h1>
+    <p class="lead">{{dienst.inhalt}}</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Buy</a>
+    </p>
+</div>

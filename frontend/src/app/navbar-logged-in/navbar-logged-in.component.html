@@ -4,7 +4,7 @@
 
 
 <div id="home">
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+  <nav class="navbar solid navbar-expand-lg fixed-top navbar-dark">
     <!--Responsive container mit jedem Pixel-->
     <div class="container-fluid">
       <!--Link zum dem Logo (ein Anker)-->
@@ -20,22 +20,13 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <!--link zu dem erstellten scroll spy in index.html also dem home Abschnitt der Seite-->
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" [routerLink]="['']">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"  href="#features">Features</a>
+          <li class="nav-item" *ngIf="auth">
+            <a class="nav-link" [routerLink]="['/dienstliste']">Dienstleitungen</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">Preise</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item" >
-            <a class="nav-link" href="#video">Video</a>
+          <li class="nav-item" *ngIf="auth">
+            <a class="nav-link" [routerLink]="['/post']">Erstelle</a>
           </li>
           <li *ngIf="!auth">
             <button (click)="login()" class="button">Login</button>

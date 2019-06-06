@@ -9,10 +9,8 @@ import {ListDiensteComponent} from './list-dienste/list-dienste.component';
 
 const routes: Routes = [
     {path: '', component: WelcomePageComponent},
-    {path: 'video', component: VideoComponent, canActivate: [AppAuthGuard]},
     {path: 'post', component: DienstpostComponent, canActivate: [AppAuthGuard]},
     {path: 'dienstliste', component: ListDiensteComponent, canActivate: [AppAuthGuard]},
-
 ];
 
 @NgModule({

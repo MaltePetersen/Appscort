@@ -23,6 +23,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { DienstpostComponent } from './dienstpost/dienstpost.component';
 import {DiensteService} from './_service/dienste.service';
 import { ListDiensteComponent } from './list-dienste/list-dienste.component';
+import {FormsModule} from '@angular/forms';
+import { NavbarLoggedInComponent } from './navbar-logged-in/navbar-logged-in.component';
 
 export class YourAppModule {
 }
@@ -43,7 +45,8 @@ export class YourAppModule {
         DialogDataExampleDialog,
         WelcomePageComponent,
         DienstpostComponent,
-        ListDiensteComponent
+        ListDiensteComponent,
+        NavbarLoggedInComponent
     ],
     imports: [
         MDBBootstrapModule.forRoot(),
@@ -53,7 +56,8 @@ export class YourAppModule {
         MatDialogModule,
         AppRoutingModule,
         KeycloakAngularModule,
-        HttpClientModule
+        HttpClientModule,
+        FormsModule
     ],
     entryComponents: [PricingComponent, DialogDataExampleDialog],
     providers: [

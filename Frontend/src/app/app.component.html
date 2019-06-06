@@ -1,2 +1,11 @@
-<app-template-navbar></app-template-navbar>
+<div *ngIf="!auth">
+    <app-template-navbar></app-template-navbar>
+</div>
+<div *ngIf="auth">
+    <app-navbar-logged-in></app-navbar-logged-in>
+</div>
+
 <router-outlet></router-outlet>
+<div id="contact ">
+    <app-contact></app-contact>
+</div>

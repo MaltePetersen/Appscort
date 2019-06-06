@@ -1,3 +1,25 @@
-<p>
-  dienstpost works!
-</p>
+<div class="mt-8"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h1>Erstelle neue Dienstleitungen!</h1>
+    <form  #dienstForm="ngForm">
+  <div class="form-group ">
+    <label >Titel</label>
+    <input type="text" class="form-control" id="heading" name="heading" [(ngModel)]="heading" aria-describedby="emailHelp" placeholder="Titel eingeben">
+  </div>
+  <div class="form-group">
+    <label for="inhalt">Dienstleistung</label>
+    <input type="text" name="inhalt" [(ngModel)]="inhalt"  class="form-control" id="inhalt" placeholder="Beschreiben sie Ihre Dienstleistung">
+  </div>
+  <button type="submit" (click)="onSubmit(); dienstForm.reset()" class="btn btn-primary" >Submit</button>
+</form>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    </div>
+  </div>
+</div>
