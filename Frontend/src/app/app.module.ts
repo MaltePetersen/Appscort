@@ -25,6 +25,7 @@ import {DiensteService} from './_service/dienste.service';
 import { ListDiensteComponent } from './list-dienste/list-dienste.component';
 import {FormsModule} from '@angular/forms';
 import { NavbarLoggedInComponent } from './navbar-logged-in/navbar-logged-in.component';
+import {EmailServiceService} from './_service/email-service.service';
 
 export class YourAppModule {
 }
@@ -62,6 +63,7 @@ export class YourAppModule {
     entryComponents: [PricingComponent, DialogDataExampleDialog],
     providers: [
         ContractServiceService,
+        EmailServiceService,
         DiensteService,
         {
             provide: APP_INITIALIZER,

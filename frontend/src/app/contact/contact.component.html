@@ -25,22 +25,21 @@
     </div>
     <div class="col-md-7">
       <h3>Kontaktiere Uns</h3>
-      <form id="contact-form" method="POST" action="">
-        <div class="nachrichten"></div>
+      <form  #contactform="ngForm">
         <div class="kontrolle">
           <div class="gruppe">
-            <input id="form_name" type="text" name="name" class="form-kontrolle" placeholder="Gib deinen Namen ein."
-              required="required">
+            <input  type="text" [(ngModel)]="subject" name="subject" class="form-control" placeholder="Gib deinen Namen ein."
+              >
           </div>
           <div class="gruppe">
-            <input id="form_email" type="email" name="email" class="form-kontrolle"
-              placeholder="Gib deine E-Mail Adresse ein." required="required">
+            <input [(ngModel)]="toEmail"  type="email" name="email" class="form-control"
+              placeholder="Gib deine E-Mail Adresse ein." >
           </div>
           <div class="gruppe">
-            <textarea id="form_nachricht" name="nachricht" class="form-kontrolle"
-              placeholder="Gib deine Nachricht an uns ein." rows="4" required="required"></textarea>
+            <textarea  name="message" [(ngModel)]="message"  class="form-control"
+              placeholder="Gib deine Nachricht an uns ein." rows="4"></textarea>
           </div>
-          <input type="submit" name="email" class="btn btn-klein btn-blau" value="Absenden">
+          <input type="submit" name="email" (click)="onSubmit(); contactform.reset()" class="btn btn-klein btn-blau" >
         </div>
       </form>
     </div>
