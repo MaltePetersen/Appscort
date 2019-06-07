@@ -15,12 +15,8 @@ import java.util.List;
 @RequestMapping(path = "api/dienst", produces = "application/json")
 public class DienstController {
     private DienstRepository dienstRepository;
-    private CustomerRepository customerRepository;
-    private EmailService emailService;
     public DienstController(DienstRepository dienstRepository,EmailService emailService, CustomerRepository customerRepository) {
         this.dienstRepository = dienstRepository;
-        this.customerRepository = customerRepository;
-        this.emailService = emailService;
     }
 
     @GetMapping("/all")

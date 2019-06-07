@@ -3,9 +3,7 @@ package de.appscort.backend.api;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.appscort.backend.Repository.ContractorRepository;
 import de.appscort.backend.Repository.CustomerRepository;
-import de.appscort.backend.domain.Contractor;
 import de.appscort.backend.domain.Customer;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -19,10 +17,8 @@ import de.appscort.backend.security.UserDetails;
 @RequestMapping(value = "/api/contracts")
 public class ContractResource {
     private CustomerRepository customerRepository;
-    private ContractorRepository contractorRepository;
-    public ContractResource(CustomerRepository customerRepository, ContractorRepository contractorRepository) {
+    public ContractResource(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
-        this.contractorRepository = contractorRepository;
     }
 
     @RequestMapping(method = RequestMethod.GET)
@@ -42,9 +38,7 @@ public class ContractResource {
         if (userDetails.getRoles().contains("customer") && !customerRepository.existsByEmail(userDetails.getEmail())) {
             customerRepository.save(new Customer(userDetails.getId(), userDetails.getFirstName(), userDetails.getLastName(), userDetails.getEmail()));
         }
-        if(userDetails.getRoles().contains("contractor") && !contractorRepository.existsByEmail(userDetails.getEmail()))
-            contractorRepository.save(new Contractor(userDetails.getId(), userDetails.getFirstName(), userDetails.getLastName(), userDetails.getEmail()));
-        return userDetails.getFullName() + " (id= " + userDetails.getId() + ")";
+          return userDetails.getFullName() + " (id= " + userDetails.getId() + ")";
     }
 
 }
