@@ -25,7 +25,6 @@ public class DienstController {
 
     @GetMapping("/all")
     public List<Dienst> getAll() {
-        emailService.sendMail("malte.petersen11@gmail.com","Test","This is a test");
         return dienstRepository.findAll();
     }
     @PostMapping(consumes = "application/json")
