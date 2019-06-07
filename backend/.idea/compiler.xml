@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="angular2-keycloak-tutorial" />
+        <module name="Backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="angular2-keycloak-tutorial" target="1.8" />
+      <module name="Backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
