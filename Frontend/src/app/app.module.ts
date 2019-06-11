@@ -2,30 +2,29 @@ import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {APP_INITIALIZER, NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
-import {HomeComponent} from './home/home.component';
-import {TemplateLoginComponent} from './_template/template-login/template-login.component';
+import {HomeComponent} from './components/Open/home/home.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {TemplateNavbarComponent} from './_template/template-navbar/template-navbar.component';
-import {FeaturesComponent} from './features/features.component';
-import {PortfolioComponent, DialogDataExampleDialog} from './portfolio/portfolio.component';
-import {TeamComponent} from './team/team.component';
-import {ContactComponent} from './contact/contact.component';
+import {TemplateNavbarComponent} from './components/Open/template-navbar/template-navbar.component';
+import {FeaturesComponent} from './components/Open/features/features.component';
+import {PortfolioComponent, DialogDataExampleDialog} from './components/Open/portfolio/portfolio.component';
+import {TeamComponent} from './components/Open/team/team.component';
+import {ContactComponent} from './components/Open/contact/contact.component';
 import {MatDialogModule} from '@angular/material/dialog';
-import {PricingComponent} from './pricing/pricing.component';
+import {PricingComponent} from './components/Open/pricing/pricing.component';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
-import {VideoComponent} from './video/video.component';
+import {VideoComponent} from './components/Open/video/video.component';
 import {AppRoutingModule} from './app-routing.module';
-import {WelcomePageComponent} from './welcome-page/welcome-page.component';
+import {WelcomePageComponent} from './components/Open/welcome-page/welcome-page.component';
 import {KeycloakAngularModule, KeycloakService} from 'keycloak-angular';
 import {initializer} from './utils/app-init';
-import {ContractServiceService} from './_service/contract-service.service';
+import {ContractServiceService} from './services/contract-service.service';
 import {HttpClientModule} from '@angular/common/http';
-import { DienstpostComponent } from './dienstpost/dienstpost.component';
-import {DiensteService} from './_service/dienste.service';
-import { ListDiensteComponent } from './list-dienste/list-dienste.component';
+import { DienstpostComponent } from './components/Closed/dienstpost/dienstpost.component';
+import {DiensteService} from './services/dienste.service';
+import { ListDiensteComponent } from './components/Closed/list-dienste/list-dienste.component';
 import {FormsModule} from '@angular/forms';
-import { NavbarLoggedInComponent } from './navbar-logged-in/navbar-logged-in.component';
-import {EmailServiceService} from './_service/email-service.service';
+import { NavbarLoggedInComponent } from './components/Closed/navbar-logged-in/navbar-logged-in.component';
+import {EmailServiceService} from './services/email-service.service';
 
 export class YourAppModule {
 }
@@ -34,7 +33,6 @@ export class YourAppModule {
     declarations: [
         AppComponent,
         HomeComponent,
-        TemplateLoginComponent,
         TemplateNavbarComponent,
         FeaturesComponent,
         PortfolioComponent,

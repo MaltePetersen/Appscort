@@ -1,37 +1,4 @@
 @charset "UTF-8";
-/* You can add global styles to this file, and also import other style files *,
- *  /* roboto-regular - latin */
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto-v19-latin-regular.woff2") format("woff2");
-  src-font-weight: regular;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto-v19-latin-regular.woff") format("woff");
-  src-font-weight: regular;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto-v19-latin-regular.ttf") format("truetype");
-  font-weight: regular;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./assets/fonts/Raleway-Bold.ttf") format("ttf");
-  src-font-weight: bold;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./assets/fonts/Raleway-Medium.ttf") format("ttf");
-  src-font-weight: medium;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./assets/fonts/Raleway-Regular.ttf") format("ttf");
-  src-font-weight: regular;
-}
 /*--- $prime: #68a5ff  ---*/
 h3.überschrift {
   color: #ffffff;
@@ -206,31 +173,69 @@ h3.peter {
 
 /*'################################### Media Queries ##################################*/
 /* Ansicht unter 992 px (lg)*/
-::selection {
-  background-color: #68a5ff;
-  color: #ffffff;
+.preis-segment {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-top: 0.2rem solid #68a5ff;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.7s ease;
+  overflow: hidden;
+  position: relative;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  -webkit-box-sizing-box-sizing: border-box;
+.preis-segment:hover {
+  transform: scale(1.1);
 }
 
-html body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-}
-
-/*.offset:before 
- * height: 4rem
- * margin-top: -4rem
- * content: ""
- * display: block */
-/*--- Extra Bootstrap Colum Padding ---*/
-[class*=col-] {
+.preis-segment h3 {
   padding: 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
-/*# sourceMappingURL=styles.css.map */
+.preis-segment p {
+  opacity: 0.8;
+  margin-top: 1.1rem;
+  font-size: 1rem;
+}
+
+.preis-segment h1 {
+  font-size: 1.8rem;
+}
+
+.preis-segment h4 {
+  padding: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.preis-segment item {
+  font-weight: 700;
+}
+
+.preis-segment h1 {
+  padding: 0.8rem 0;
+}
+
+.bandarole {
+  background-color: #68a5ff;
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-top: 0.4rem;
+  position: absolute;
+  right: -2.8rem;
+  top: 1.6rem;
+  transform: rotate(45deg);
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+/*# sourceMappingURL=pricing.component.css.map */

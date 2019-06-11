@@ -1,0 +1,86 @@
+@import '../../../../sass/var'
+
+.offset:before
+  height: 4rem
+  margin-top: -4rem
+  content: ""
+  display: block
+
+/*--- Extra Bootstrap Colum Padding ---*/
+[class*="col-"]
+  padding: 1rem
+
+.navbar
+  padding: .7rem .1rem
+  text-transform: uppercase
+  font-size: .9rem
+  font-family: roboto
+  font-weight: 700
+  letter-spacing: .1rem
+  background-color: $beige2
+  transition: background-color .5s ease 0s
+
+.navbar-logo img
+  height: 3rem
+
+.navbar-toggler-icon
+  color: white
+  font-size: .1.6rem
+
+.navbar-nav li
+  padding-right: .8rem
+
+.navbar-nav .nav-link
+  color: white
+  padding-top: .8rem
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover
+  color: $prime;
+
+.navbar.solid
+  background: rgba(121, 95, 72, 0.7)!important;
+  transition: background-color 1s ease 0s;
+
+.button
+  background-color: Transparent;
+  border: 2px solid $white;
+  color: white;
+  padding: .6rem .8rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase
+  font-size: .9rem
+  font-family: roboto;
+  font-weight: 700
+  letter-spacing: .1rem
+
+.button:hover
+  color: $prime
+  border-color: $prime
+
+.container-fluid
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+
+.top-scroll
+  .fas
+    font-size: 3rem
+    height: 1.7rem
+    color: $white
+    @media (max-width: 750px)
+      display: none
+
+a.top-scroll
+  right: 1.2rem
+  bottom: 1.2rem
+  position: fixed
+  opacity: .3
+  z-index: 1000
+  display: none
+
+a.top-scroll:hover
+  opacity: .5
+
+

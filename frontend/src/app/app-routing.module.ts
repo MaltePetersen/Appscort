@@ -1,11 +1,11 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
-import {WelcomePageComponent} from './welcome-page/welcome-page.component';
-import {VideoComponent} from './video/video.component';
+import {WelcomePageComponent} from './components/Open/welcome-page/welcome-page.component';
+import {VideoComponent} from './components/Open/video/video.component';
 import {AppAuthGuard} from './app.authguard';
-import {DienstpostComponent} from './dienstpost/dienstpost.component';
-import {ListDiensteComponent} from './list-dienste/list-dienste.component';
+import {DienstpostComponent} from './components/Closed/dienstpost/dienstpost.component';
+import {ListDiensteComponent} from './components/Closed/list-dienste/list-dienste.component';
 
 const routes: Routes = [
     {path: '', component: WelcomePageComponent},

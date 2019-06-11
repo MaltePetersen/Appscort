@@ -1,0 +1,50 @@
+<footer>
+  <div class="row">
+    <div class="col-md-5">
+      <img src="../../../../assets/logoAppscort-weiß-blau.png" style="height: 3rem" alt="Appscort Logo">
+      <p>Appscort ist eine einfach zu verstehende und intuitiv nutzbare Personalvermittlungsplattform. Einige der besten
+        Arbeitskräfte aus Industrie, Wirtschaft und Handwerk bieten bei uns ihre Dienste an.</p>
+      <strong>
+        Adresse
+      </strong>
+      <p>Hans-Detlev-Prien-Straße 10, <br>
+        24106 Kiel
+      </p>
+      <strong>
+        Kontakt
+      </strong>
+      <p>Tel. (0431) 30 16 - 126 <br>
+        Fax. (0431) 30 16 - 380<br>
+        email@appscort.de</p>
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-twitter-square"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-reddit-square"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+
+    </div>
+    <div class="col-md-7">
+      <h3>Kontaktiere Uns</h3>
+      <form  #contactform="ngForm">
+        <div class="kontrolle">
+          <div class="gruppe">
+            <input  type="text" [(ngModel)]="subject" name="subject" class="form-control" placeholder="Gib deinen Namen ein."
+              >
+          </div>
+          <div class="gruppe">
+            <input [(ngModel)]="toEmail"  type="email" name="email" class="form-control"
+              placeholder="Gib deine E-Mail Adresse ein." >
+          </div>
+          <div class="gruppe">
+            <textarea  name="message" [(ngModel)]="message"  class="form-control"
+              placeholder="Gib deine Nachricht an uns ein." rows="4"></textarea>
+          </div>
+          <input type="submit" name="email" (click)="onSubmit(); contactform.reset()" class="btn btn-klein btn-blau" >
+        </div>
+      </form>
+    </div>
+
+    <hr class="socket">
+    &copy; Malte und Hendrik.
+  </div>
+</footer>

@@ -1,37 +1,4 @@
 @charset "UTF-8";
-/* You can add global styles to this file, and also import other style files *,
- *  /* roboto-regular - latin */
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto-v19-latin-regular.woff2") format("woff2");
-  src-font-weight: regular;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto-v19-latin-regular.woff") format("woff");
-  src-font-weight: regular;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto-v19-latin-regular.ttf") format("truetype");
-  font-weight: regular;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./assets/fonts/Raleway-Bold.ttf") format("ttf");
-  src-font-weight: bold;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./assets/fonts/Raleway-Medium.ttf") format("ttf");
-  src-font-weight: medium;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./assets/fonts/Raleway-Regular.ttf") format("ttf");
-  src-font-weight: regular;
-}
 /*--- $prime: #68a5ff  ---*/
 h3.überschrift {
   color: #ffffff;
@@ -206,31 +173,71 @@ h3.peter {
 
 /*'################################### Media Queries ##################################*/
 /* Ansicht unter 992 px (lg)*/
-::selection {
-  background-color: #68a5ff;
-  color: #ffffff;
+footer {
+  background-color: #795F48;
+  background-size: cover;
+  color: white;
+}
+footer .row {
+  background-color: rgba(57, 63, 70, 0.5);
+  padding: 1rem 2rem 3rem;
+}
+footer img {
+  height: 2rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+footer .fab {
+  font-size: 1.3rem;
+  margin: 1.2rem 0.5rem 0;
+}
+footer .fab:hover {
+  color: #68a5ff !important;
+}
+footer h3 {
+  text-transform: uppercase;
+  margin: 2.2rem 0;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  -webkit-box-sizing-box-sizing: border-box;
+.gruppe {
+  margin-bottom: 1.3rem;
+}
+.gruppe input::placeholder,
+.gruppe textarea::placeholder {
+  color: #795F48;
+  padding: 0.3rem;
 }
 
-html body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
+.form-kontrolle {
+  background-color: #B59E79;
+  border-radius: 0;
+  border: 0.15rem solid #795F48;
+  font-size: 1rem;
 }
 
-/*.offset:before 
- * height: 4rem
- * margin-top: -4rem
- * content: ""
- * display: block */
-/*--- Extra Bootstrap Colum Padding ---*/
-[class*=col-] {
-  padding: 1rem;
+.form-kontrolle:focus {
+  background-color: #e7d6c4;
+  border: 0.15rem solid #e7d6c4;
 }
 
-/*# sourceMappingURL=styles.css.map */
+input {
+  width: 100%;
+}
+
+.btn-blau {
+  pointer: cursor;
+  width: auto !important;
+}
+
+textarea {
+  width: 100%;
+}
+
+hr.socket {
+  border-top: 0.2rem solid #e7d6c4;
+  width: 100%;
+}
+
+/*# sourceMappingURL=contact.component.css.map */
