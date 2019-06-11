@@ -2,6 +2,7 @@ import {Component, HostListener, OnInit} from '@angular/core';
 import {trigger, state, style, animate, transition, group} from '@angular/animations';
 import * as $ from 'jquery';
 import {KeycloakService} from 'keycloak-angular';
+import {Router} from '@angular/router';
 
 
 @Component({
@@ -14,7 +15,7 @@ export class AppComponent implements OnInit {
     title = 'Appscort';
     auth = false;
 
-    constructor(private keycloakService: KeycloakService) {
+    constructor(private keycloakService: KeycloakService, private router: Router) {
     }
 
     async ngOnInit() {

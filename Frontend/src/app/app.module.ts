@@ -25,6 +25,7 @@ import { ListDiensteComponent } from './components/Closed/list-dienste/list-dien
 import {FormsModule} from '@angular/forms';
 import { NavbarLoggedInComponent } from './components/Closed/navbar-logged-in/navbar-logged-in.component';
 import {EmailServiceService} from './services/email-service.service';
+import { PaypalComponent } from './components/Closed/paypal/paypal.component';
 
 export class YourAppModule {
 }
@@ -45,7 +46,8 @@ export class YourAppModule {
         WelcomePageComponent,
         DienstpostComponent,
         ListDiensteComponent,
-        NavbarLoggedInComponent
+        NavbarLoggedInComponent,
+        PaypalComponent
     ],
     imports: [
         MDBBootstrapModule.forRoot(),

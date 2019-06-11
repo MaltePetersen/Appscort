@@ -6,11 +6,13 @@ import {VideoComponent} from './components/Open/video/video.component';
 import {AppAuthGuard} from './app.authguard';
 import {DienstpostComponent} from './components/Closed/dienstpost/dienstpost.component';
 import {ListDiensteComponent} from './components/Closed/list-dienste/list-dienste.component';
+import {PaypalComponent} from './components/Closed/paypal/paypal.component';
 
 const routes: Routes = [
     {path: '', component: WelcomePageComponent},
     {path: 'post', component: DienstpostComponent, canActivate: [AppAuthGuard]},
     {path: 'dienstliste', component: ListDiensteComponent, canActivate: [AppAuthGuard]},
+    {path: 'paypal', component: PaypalComponent, canActivate: [AppAuthGuard]}
 ];
 
 @NgModule({
