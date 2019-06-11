@@ -1,100 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbc826cc-ed36-445c-aa5a-ec3f6b6caa31" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/contact/contact.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/contact/contact.component.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/home/home.component.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/portfolio.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/pricing/pricing.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/pricing/pricing.component.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/team/team.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/app.module.ts" afterPath="$PROJECT_DIR$/../Frontend/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_interface/appscort.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_service/contract-service.service.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/services/contract-service.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_service/contract-service.service.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/services/contract-service.service.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_service/dienste.service.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/services/dienste.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_service/dienste.service.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/services/dienste.service.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_service/email-service.service.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/services/email-service.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_service/email-service.service.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/services/email-service.service.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-login/template-login.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-login/template-login.component.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-login/template-login.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-login/template-login.component.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-login/template-login.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-login/template-login.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-navbar/template-navbar.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/template-navbar/template-navbar.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-navbar/template-navbar.component.css.map" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/template-navbar/template-navbar.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-navbar/template-navbar.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/template-navbar/template-navbar.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-navbar/template-navbar.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/template-navbar/template-navbar.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-navbar/template-navbar.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/template-navbar/template-navbar.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/_template/template-navbar/template-navbar.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/template-navbar/template-navbar.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/contact/contact.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/contact/contact.component.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/contact/contact.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/contact/contact.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/contact/contact.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/contact/contact.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/contact/contact.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/contact/contact.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/contact/contact.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/contact/contact.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dienstpost/dienstpost.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/dienstpost/dienstpost.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dienstpost/dienstpost.component.css.map" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/dienstpost/dienstpost.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dienstpost/dienstpost.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/dienstpost/dienstpost.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dienstpost/dienstpost.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/dienstpost/dienstpost.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dienstpost/dienstpost.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/dienstpost/dienstpost.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dienstpost/dienstpost.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/dienstpost/dienstpost.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/features/features.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/features/features.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/features/features.component.css.map" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/features/features.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/features/features.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/features/features.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/features/features.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/features/features.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/features/features.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/features/features.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/features/features.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/features/features.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/home/home.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/home/home.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/home/home.component.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/home/home.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/home/home.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/home/home.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/home/home.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/home/home.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/home/home.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/home/home.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/list-dienste/list-dienste.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/list-dienste/list-dienste.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/list-dienste/list-dienste.component.css.map" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/list-dienste/list-dienste.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/list-dienste/list-dienste.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/list-dienste/list-dienste.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/list-dienste/list-dienste.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/list-dienste/list-dienste.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/list-dienste/list-dienste.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/list-dienste/list-dienste.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/list-dienste/list-dienste.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/list-dienste/list-dienste.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/navbar-logged-in/navbar-logged-in.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/navbar-logged-in/navbar-logged-in.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/navbar-logged-in/navbar-logged-in.component.css.map" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/navbar-logged-in/navbar-logged-in.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/navbar-logged-in/navbar-logged-in.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/navbar-logged-in/navbar-logged-in.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/navbar-logged-in/navbar-logged-in.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/navbar-logged-in/navbar-logged-in.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/navbar-logged-in/navbar-logged-in.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/navbar-logged-in/navbar-logged-in.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/navbar-logged-in/navbar-logged-in.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Closed/navbar-logged-in/navbar-logged-in.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/example-dialog.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/example-dialog.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/portfolio.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/portfolio.component.css.map" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/portfolio.component.css.map" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/portfolio.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/portfolio.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/portfolio.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/portfolio.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/portfolio.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/portfolio.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/portfolio/portfolio.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/portfolio/portfolio.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pricing/pricing.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pricing/pricing.component.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pricing/pricing.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/pricing/pricing.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pricing/pricing.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/pricing/pricing.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pricing/pricing.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/pricing/pricing.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pricing/pricing.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/pricing/pricing.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/team/team.component.css" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/team/team.component.css" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/team/team.component.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/team/team.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/team/team.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/team/team.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/team/team.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/team/team.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/team/team.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/team/team.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/team/team.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/video/video.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/video/video.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/video/video.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/video/video.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/video/video.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/video/video.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/video/video.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/video/video.component.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/welcome-page/welcome-page.component.html" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/welcome-page/welcome-page.component.html" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/welcome-page/welcome-page.component.sass" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/welcome-page/welcome-page.component.sass" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/welcome-page/welcome-page.component.spec.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/welcome-page/welcome-page.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/welcome-page/welcome-page.component.ts" afterPath="$PROJECT_DIR$/../frontend/src/app/components/Open/welcome-page/welcome-page.component.ts" />
-    </list>
+    <list default="true" id="fbc826cc-ed36-445c-aa5a-ec3f6b6caa31" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/appscort/backend/api/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -209,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+            <state relative-caret-position="561">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -354,15 +261,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular2-keycloak-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angular2-keycloak-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -553,16 +451,15 @@
       <workItem from="1559904771057" duration="1106000" />
       <workItem from="1559921349827" duration="2934000" />
       <workItem from="1559926977279" duration="1511000" />
-      <workItem from="1560247099355" duration="2154000" />
+      <workItem from="1560247099355" duration="3002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71056000" />
+    <option name="totallyTimeSpent" value="71904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998225" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -585,7 +482,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31205675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40957448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2445055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2445055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -881,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -911,6 +800,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
