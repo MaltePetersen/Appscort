@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="mt-8"></div>
 <div class="jumbotron " *ngFor="let dienst of dienstList">
     <h1 class="display-4">{{dienst.heading}}</h1>
@@ -5,7 +6,27 @@
     <p class="lead">
         <a class="btn btn-primary btn-lg" [routerLink]="['/paypal']" role="button">Buy</a>
     </p>
+=======
+<div class="mt-8">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4" *ngFor="let dienst of dienstList">
+
+                <div style="display:flex; justify-content: space-between;" class="tile dienst-segment text_mittig">
+                    <h3>{{dienst.heading}}</h3>
+                    <p>{{dienst.inhalt}}</p>
+                    <a style="display:flex; justify-content: center;" class="btn btn-klein btn-secondary" href="#"
+                        role="button">Buy</a>
+                </div>
+
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+>>>>>>> temp
 </div>
+
 <div id="contact ">
     <app-contact></app-contact>
 </div>

@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {DiensteService} from '../../../services/dienste.service';
-import {Dienst} from '../../../domain/dienst';
+import { Component, OnInit } from '@angular/core';
+import { DiensteService } from '../../../services/dienste.service';
+import { Dienst } from '../../../domain/dienst';
 import * as $ from 'jquery';
 
 @Component({
@@ -18,7 +18,7 @@ export class ListDiensteComponent implements OnInit {
     ngOnInit() {
         this.dienstList = [];
         this.dienstService.get().subscribe((data) => console.log(this.dienstList = data));
-        $('.navbar').addClass('solid');
+
 
 
     }
