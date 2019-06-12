@@ -19,7 +19,7 @@ export class DienstpostComponent implements OnInit {
 
     ngOnInit() {
         this.dienst = new Dienst();
-        $('.navbar').addClass('solid');
+
     }
 
     onSubmit() {
